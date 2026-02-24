@@ -1,4 +1,4 @@
-package com.example;
+package com.penancerunneranim;
 
 import com.google.common.collect.ImmutableSet;
 import java.util.Locale;
@@ -15,7 +15,7 @@ import net.runelite.client.plugins.PluginDescriptor;
 	description = "Restores the missing Penance Runner eating anim",
 	tags = {"BA, Barb assault, Barbarian assault, Penance Runner"}
 )
-public class ExamplePlugin extends Plugin
+public class PenanceRunnerPlugin extends Plugin
 {
 	private static final int TRIGGER_ANIMATION_ID = 5103;
 	private static final Set<String> TRIGGER_TEXTS = ImmutableSet.of("chomp, chomp.", "blughhhh.");
